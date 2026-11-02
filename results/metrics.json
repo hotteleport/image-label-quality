@@ -1,0 +1,77 @@
+{
+  "audit": {
+    "images": 892,
+    "by_label": {
+      "moose": 447,
+      "reindeer": 445
+    },
+    "exact_duplicate_files": 101,
+    "duplicate_groups": 137,
+    "redundant_files": 144,
+    "groups_with_label_conflict": 2,
+    "small_images": 36
+  },
+  "random_sample": {
+    "groups_reviewed": 240,
+    "counts": {
+      "moose": 53,
+      "wrong_animal": 25,
+      "not_photo": 113,
+      "uncertain": 15,
+      "reindeer": 34
+    },
+    "usable_share": 0.3625,
+    "usable_ci95": [
+      0.30416666666666664,
+      0.425
+    ],
+    "wrong_class_among_usable": 0
+  },
+  "flagged_review": {
+    "wrong_animal": 29,
+    "relabel": 2,
+    "not_photo": 102,
+    "keep": 19,
+    "uncertain": 7
+  },
+  "test_images": 87,
+  "test_by_label": {
+    "moose": 53,
+    "reindeer": 34
+  },
+  "conditions": {
+    "raw": {
+      "train_images": 604,
+      "accuracy": 0.9655172413793104,
+      "ci95": [
+        0.9195402298850575,
+        1.0
+      ]
+    },
+    "deduplicated": {
+      "train_images": 507,
+      "accuracy": 0.9655172413793104,
+      "ci95": [
+        0.9195402298850575,
+        1.0
+      ]
+    },
+    "reviewed": {
+      "train_images": 440,
+      "accuracy": 0.9540229885057471,
+      "ci95": [
+        0.9080459770114943,
+        0.9885057471264368
+      ]
+    }
+  },
+  "reviewed_minus_raw_ci95": [
+    -0.034482758620689655,
+    0.0
+  ],
+  "raw_label_accuracy": {
+    "random_split_mean": 0.8620111731843576,
+    "group_split_mean": 0.8184894875384726,
+    "difference": 0.04352168564588499
+  }
+}
